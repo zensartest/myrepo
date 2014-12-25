@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My EWC suite]">
+  <parameter name="TestURL" value="http://merchant.waxcenter.com"/>
+  <parameter name="Browsername" value="firefox"/>
+  <test name="Invalid_Login_verification_Test(failed)">
+    <classes>
+      <class name="Loginpage_verification.LoginTest">
+        <methods>
+          <include name="loginWithValidUser"/>
+        </methods>
+      </class> <!-- Loginpage_verification.LoginTest -->
+      <class name="DriverSetup.driversetup">
+        <methods>
+          <include name="endTestSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- DriverSetup.driversetup -->
+    </classes>
+  </test> <!-- Invalid_Login_verification_Test(failed) -->
+</suite> <!-- Failed suite [My EWC suite] -->

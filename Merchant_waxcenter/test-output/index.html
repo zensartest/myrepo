@@ -1,0 +1,2250 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Merchant_site">
+              <span class="suite-name border-failed">Merchant site</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Merchant_site">
+                    <span>F:\selenium\Samir\Merchant_waxcenter\merchant.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Merchant_site">
+                    <span class="test-stats">40 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Merchant_site">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Merchant_site">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Merchant_site">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Merchant_site">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Merchant_site">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 4 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Merchant_site" class="hide-methods failed suite-Merchant_site"> (hide)</a> <!-- hide-methods failed suite-Merchant_site -->
+                      <a href="#" panel-name="suite-Merchant_site" class="show-methods failed suite-Merchant_site"> (show)</a> <!-- show-methods failed suite-Merchant_site -->
+                    </span>
+                    <div class="method-list-content failed suite-Merchant_site">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Facilities_SEO" hash-for-method="Facilities_SEO_test">Facilities_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.Intranet_Shipping_Cost" hash-for-method="Intranet_Shipping_Cost_test">Intranet_Shipping_Cost_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Locations_SEO" hash-for-method="Locations_SEO_test">Locations_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.VHV_Library_SEO_Download" hash-for-method="Vision_and_History_SEO_test">Vision_and_History_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Merchant_site -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Merchant_site" class="hide-methods passed suite-Merchant_site"> (hide)</a> <!-- hide-methods passed suite-Merchant_site -->
+                      <a href="#" panel-name="suite-Merchant_site" class="show-methods passed suite-Merchant_site"> (show)</a> <!-- show-methods passed suite-Merchant_site -->
+                    </span>
+                    <div class="method-list-content passed suite-Merchant_site">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Animated_banners" hash-for-method="Animated_banners_test">Animated_banners_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Book_Reservation_SEO" hash-for-method="Book_Reservation_SEO_test">Book_Reservation_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Brochure_File" hash-for-method="Brochure_File_test">Brochure_File_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Brochure_Request_SEO" hash-for-method="Brochure_Request_SEO_test">Brochure_Request_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Careers_Submissions" hash-for-method="Careers_Submissions_test">Careers_Submissions_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Careers" hash-for-method="Careers_test">Careers_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Cart_SEO" hash-for-method="Cart_SEO_test">Cart_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Contact_Us_SEO" hash-for-method="Contact_Us_SEO_test">Contact_Us_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Customer_Support_SEO" hash-for-method="Customer_Support_SEO_test">Customer_Support_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Email_Blasts" hash-for-method="Email_Blasts_test">Email_Blasts_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Franchise_Interest_Submissions" hash-for-method="Franchise">Franchise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.FranchiseInterestItems" hash-for-method="FranchiseInterestItems_test">FranchiseInterestItems_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Franchise_Interest_FormAreasOfInterest" hash-for-method="Franchise_Interest_FormAreasOfInterest_test">Franchise_Interest_FormAreasOfInterest_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Franchise_Question_Manager" hash-for-method="Franchise_Question_Manager_test">Franchise_Question_Manager_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Franchise_Question_Manager" hash-for-method="Franchise_Question_Manager_test">Franchise_Question_Manager_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Franchise_File" hash-for-method="Franchise_file">Franchise_file</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Global_SEO_Settings" hash-for-method="Global_SEO_Settings_test">Global_SEO_Settings_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Guest_Promotion_Text" hash-for-method="Guest_Promotion_Text_test">Guest_Promotion_Text_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="HomePageTesting.HomeTest" hash-for-method="HomeTesting">HomeTesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Homepage_articles" hash-for-method="Homepage_articles_test">Homepage_articles_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Homepage_rotators" hash-for-method="Homepage_rotators_test">Homepage_rotators_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.News_SEO" hash-for-method="News_SEO_test">News_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.News_articles" hash-for-method="News_articles_test">News_articles_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Promotions_SEO" hash-for-method="Promotions_SEO_test">Promotions_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.Store_settings" hash-for-method="Store_settings_test">Store_settings_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.Tax_settings" hash-for-method="Tax_settings_test">Tax_settings_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Testimonials" hash-for-method="Testimonials_test">Testimonials_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.URL_forwarding" hash-for-method="URL_forwarding_test">URL_forwarding_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.VHV_Library_SEO_Upload" hash-for-method="VHV_Library_SEO_Upload_test">VHV_Library_SEO_Upload_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Vision_and_History_SEO" hash-for-method="Vision_and_History_SEO_test">Vision_and_History_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="seo.Waxing_Services_SEO" hash-for-method="Waxing_Services_SEO_test">Waxing_Services_SEO_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="Loginpage_verification.LoginTest" hash-for-method="loginWithInValidUser">loginWithInValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="Loginpage_verification.LoginTest" hash-for-method="loginWithValidUser">loginWithValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.shipping_service" hash-for-method="shipping_service_test">shipping_service_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="settings.shopping_models" hash-for-method="shopping_models_test">shopping_models_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merchant_site" title="content.Vision_History" hash-for-method="vision">vision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Merchant_site -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Merchant_site" class="panel Merchant_site">
+          <div class="suite-Merchant_site-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seo.Facilities_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Facilities_SEO_test">
+                  </a> <!-- Facilities_SEO_test -->
+                  <span class="method-name">Facilities_SEO_test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/h1&quot;}
+Command duration or timeout: 1.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at seo.Facilities_SEO.Facilities_SEO_test(Facilities_SEO.java:33)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/h1&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-failed -->
+          <div class="suite-Merchant_site-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seo.VHV_Library_SEO_Download</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Vision_and_History_SEO_test">
+                  </a> <!-- Vision_and_History_SEO_test -->
+                  <span class="method-name">Vision_and_History_SEO_test</span>
+                  <div class="stack-trace">java.io.IOException: Cannot run program &quot;D:\cancel.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at seo.VHV_Library_SEO_Download.Vision_and_History_SEO_test(VHV_Library_SEO_Download.java:26)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.&lt;init&gt;(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-failed -->
+          <div class="suite-Merchant_site-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seo.Locations_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Locations_SEO_test">
+                  </a> <!-- Locations_SEO_test -->
+                  <span class="method-name">Locations_SEO_test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/table[15]/tbody/tr/td/div[3]/h1&quot;}
+Command duration or timeout: 5.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at seo.Locations_SEO.Locations_SEO_test(Locations_SEO.java:33)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/table[15]/tbody/tr/td/div[3]/h1&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-failed -->
+          <div class="suite-Merchant_site-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">settings.Intranet_Shipping_Cost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Intranet_Shipping_Cost_test">
+                  </a> <!-- Intranet_Shipping_Cost_test -->
+                  <span class="method-name">Intranet_Shipping_Cost_test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/h1&quot;}
+Command duration or timeout: 1.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at settings.Intranet_Shipping_Cost.Intranet_Shipping_Cost_test(Intranet_Shipping_Cost.java:33)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/h1&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;Sameer-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-failed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Franchise_Question_Manager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Franchise_Question_Manager_test">
+                  </a> <!-- Franchise_Question_Manager_test -->
+                  <span class="method-name">Franchise_Question_Manager_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Franchise_Question_Manager_test">
+                  </a> <!-- Franchise_Question_Manager_test -->
+                  <span class="method-name">Franchise_Question_Manager_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.VHV_Library_SEO_Upload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VHV_Library_SEO_Upload_test">
+                  </a> <!-- VHV_Library_SEO_Upload_test -->
+                  <span class="method-name">VHV_Library_SEO_Upload_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">settings.shipping_service</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shipping_service_test">
+                  </a> <!-- shipping_service_test -->
+                  <span class="method-name">shipping_service_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Careers_Submissions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Careers_Submissions_test">
+                  </a> <!-- Careers_Submissions_test -->
+                  <span class="method-name">Careers_Submissions_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Cart_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Cart_SEO_test">
+                  </a> <!-- Cart_SEO_test -->
+                  <span class="method-name">Cart_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">settings.Tax_settings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Tax_settings_test">
+                  </a> <!-- Tax_settings_test -->
+                  <span class="method-name">Tax_settings_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Careers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Careers_test">
+                  </a> <!-- Careers_test -->
+                  <span class="method-name">Careers_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Promotions_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Promotions_SEO_test">
+                  </a> <!-- Promotions_SEO_test -->
+                  <span class="method-name">Promotions_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Vision_History</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="vision">
+                  </a> <!-- vision -->
+                  <span class="method-name">vision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Animated_banners</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Animated_banners_test">
+                  </a> <!-- Animated_banners_test -->
+                  <span class="method-name">Animated_banners_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Vision_and_History_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Vision_and_History_SEO_test">
+                  </a> <!-- Vision_and_History_SEO_test -->
+                  <span class="method-name">Vision_and_History_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTesting.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeTesting">
+                  </a> <!-- HomeTesting -->
+                  <span class="method-name">HomeTesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Customer_Support_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_Support_SEO_test">
+                  </a> <!-- Customer_Support_SEO_test -->
+                  <span class="method-name">Customer_Support_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Franchise_File</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Franchise_file">
+                  </a> <!-- Franchise_file -->
+                  <span class="method-name">Franchise_file</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Testimonials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Testimonials_test">
+                  </a> <!-- Testimonials_test -->
+                  <span class="method-name">Testimonials_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Guest_Promotion_Text</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_Promotion_Text_test">
+                  </a> <!-- Guest_Promotion_Text_test -->
+                  <span class="method-name">Guest_Promotion_Text_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Contact_Us_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_Us_SEO_test">
+                  </a> <!-- Contact_Us_SEO_test -->
+                  <span class="method-name">Contact_Us_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">settings.shopping_models</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopping_models_test">
+                  </a> <!-- shopping_models_test -->
+                  <span class="method-name">shopping_models_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Franchise_Interest_Submissions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Franchise">
+                  </a> <!-- Franchise -->
+                  <span class="method-name">Franchise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">settings.Store_settings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Store_settings_test">
+                  </a> <!-- Store_settings_test -->
+                  <span class="method-name">Store_settings_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Homepage_rotators</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage_rotators_test">
+                  </a> <!-- Homepage_rotators_test -->
+                  <span class="method-name">Homepage_rotators_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Waxing_Services_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Waxing_Services_SEO_test">
+                  </a> <!-- Waxing_Services_SEO_test -->
+                  <span class="method-name">Waxing_Services_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Brochure_Request_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Brochure_Request_SEO_test">
+                  </a> <!-- Brochure_Request_SEO_test -->
+                  <span class="method-name">Brochure_Request_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Global_SEO_Settings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Global_SEO_Settings_test">
+                  </a> <!-- Global_SEO_Settings_test -->
+                  <span class="method-name">Global_SEO_Settings_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.News_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="News_SEO_test">
+                  </a> <!-- News_SEO_test -->
+                  <span class="method-name">News_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">settings.URL_forwarding</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="URL_forwarding_test">
+                  </a> <!-- URL_forwarding_test -->
+                  <span class="method-name">URL_forwarding_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Franchise_Interest_FormAreasOfInterest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Franchise_Interest_FormAreasOfInterest_test">
+                  </a> <!-- Franchise_Interest_FormAreasOfInterest_test -->
+                  <span class="method-name">Franchise_Interest_FormAreasOfInterest_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Loginpage_verification.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInValidUser">
+                  </a> <!-- loginWithInValidUser -->
+                  <span class="method-name">loginWithInValidUser</span>
+                  <em>
+(Checking the invalid input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUser">
+                  </a> <!-- loginWithValidUser -->
+                  <span class="method-name">loginWithValidUser</span>
+                  <em>
+(Checking the valid input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Homepage_articles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage_articles_test">
+                  </a> <!-- Homepage_articles_test -->
+                  <span class="method-name">Homepage_articles_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Brochure_File</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Brochure_File_test">
+                  </a> <!-- Brochure_File_test -->
+                  <span class="method-name">Brochure_File_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seo.Book_Reservation_SEO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_Reservation_SEO_test">
+                  </a> <!-- Book_Reservation_SEO_test -->
+                  <span class="method-name">Book_Reservation_SEO_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.FranchiseInterestItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FranchiseInterestItems_test">
+                  </a> <!-- FranchiseInterestItems_test -->
+                  <span class="method-name">FranchiseInterestItems_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.Email_Blasts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Email_Blasts_test">
+                  </a> <!-- Email_Blasts_test -->
+                  <span class="method-name">Email_Blasts_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+          <div class="suite-Merchant_site-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">content.News_articles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="News_articles_test">
+                  </a> <!-- News_articles_test -->
+                  <span class="method-name">News_articles_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merchant_site-class-passed -->
+        </div> <!-- panel Merchant_site -->
+        <div panel-name="test-xml-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\selenium\Samir\Merchant_waxcenter\merchant.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Merchant site&quot;&gt;
+  &lt;parameter name=&quot;Browsername&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;TestURL&quot; value=&quot;http://merchant.waxcenter.com&quot;/&gt;
+  &lt;test name=&quot;Initionalization_driver&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DriverSetup.driversetup&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- DriverSetup.driversetup --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Initionalization_driver --&gt;
+  &lt;test name=&quot;Login_verification_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Loginpage_verification.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginWithInValidUser&quot;/&gt;
+          &lt;include name=&quot;loginWithValidUser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Loginpage_verification.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login_verification_Test --&gt;
+  &lt;test name=&quot;HomePage Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;HomePageTesting.HomeTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;HomeTesting&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- HomePageTesting.HomeTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage Validation --&gt;
+  &lt;test name=&quot;Franchise_Interest_Submissions&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Franchise_Interest_Submissions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Franchise&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Franchise_Interest_Submissions --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Franchise_Interest_Submissions --&gt;
+  &lt;test name=&quot;Franchise_Interest_Managers&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Franchise_Question_Manager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Fran_ques_manager&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Franchise_Question_Manager --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Franchise_Interest_Managers --&gt;
+  &lt;test name=&quot;Vision_History&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Vision_History&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;vision&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Vision_History --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Vision_History --&gt;
+  &lt;test name=&quot;Franchise File&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Franchise_File&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Franchise_file&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Franchise_File --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Franchise File --&gt;
+  &lt;test name=&quot;Experience Ratings&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Testimonials&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Testimonials_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Testimonials --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Experience Ratings --&gt;
+  &lt;test name=&quot;Brochure_File&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Brochure_File&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Brochure_File_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Brochure_File --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Brochure_File --&gt;
+  &lt;test name=&quot;Franchise Interest Form - Areas Of Interest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Franchise_Interest_FormAreasOfInterest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Franchise_Interest_FormAreasOfInterest_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Franchise_Interest_FormAreasOfInterest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Franchise Interest Form - Areas Of Interest --&gt;
+  &lt;test name=&quot; Animated banners &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Animated_banners&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Animated_banners&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Animated_banners --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  Animated banners  --&gt;
+  &lt;test name=&quot;Homepage_rotators&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Homepage_rotators&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Homepage_rotators_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Homepage_rotators --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Homepage_rotators --&gt;
+  &lt;test name=&quot;Careers_Submissions&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Careers_Submissions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Careers_Submissions_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Careers_Submissions --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Careers_Submissions --&gt;
+  &lt;test name=&quot;Careers&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Careers&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Careers_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Careers --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Careers --&gt;
+  &lt;test name=&quot;News_articles&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.News_articles&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;News_articles_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.News_articles --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- News_articles --&gt;
+  &lt;test name=&quot;Homepage_articles&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Homepage_articles&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Homepage_articles_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Homepage_articles --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Homepage_articles --&gt;
+  &lt;test name=&quot;Guest_Promotion_Text&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Guest_Promotion_Text&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Guest_Promotion_Text_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Guest_Promotion_Text --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Guest_Promotion_Text --&gt;
+  &lt;test name=&quot;FranchiseInterestItems&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.FranchiseInterestItems&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;FranchiseInterestItems_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.FranchiseInterestItems --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FranchiseInterestItems --&gt;
+  &lt;test name=&quot;Franchise Question Manager&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Franchise_Question_Manager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Franchise_Question_Manager_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Franchise_Question_Manager --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Franchise Question Manager --&gt;
+  &lt;test name=&quot;Email Blasts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;content.Email_Blasts&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Email_Blasts_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- content.Email_Blasts --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Email Blasts --&gt;
+  &lt;test name=&quot;shipping_service&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.shipping_service&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shipping_service_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.shipping_service --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- shipping_service --&gt;
+  &lt;test name=&quot;shopping_models&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.shopping_models&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shopping_models_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.shopping_models --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- shopping_models --&gt;
+  &lt;test name=&quot;Intranet_Shipping_Cost&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.Intranet_Shipping_Cost&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Intranet_Shipping_Cost_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.Intranet_Shipping_Cost --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Intranet_Shipping_Cost --&gt;
+  &lt;test name=&quot;URL_forwarding&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.URL_forwarding&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;URL_forwarding_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.URL_forwarding --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- URL_forwarding --&gt;
+  &lt;test name=&quot;Store_settings&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.Store_settings&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Store_settings_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.Store_settings --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Store_settings --&gt;
+  &lt;test name=&quot;Tax_settings&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;settings.Tax_settings&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Tax_settings_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- settings.Tax_settings --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tax_settings --&gt;
+  &lt;test name=&quot;Vision_and_History_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Vision_and_History_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Vision_and_History_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Vision_and_History_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Vision_and_History_SEO --&gt;
+  &lt;test name=&quot;VHV_Library_SEO_Download&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.VHV_Library_SEO_Download&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VHV_Library_SEO_Download_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.VHV_Library_SEO_Download --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VHV_Library_SEO_Download --&gt;
+  &lt;test name=&quot;Book_Reservation_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Book_Reservation_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Book_Reservation_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Book_Reservation_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Book_Reservation_SEO --&gt;
+  &lt;test name=&quot;News_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.News_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;News_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.News_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- News_SEO --&gt;
+  &lt;test name=&quot;Waxing_Services_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Waxing_Services_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Waxing_Services_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Waxing_Services_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Waxing_Services_SEO --&gt;
+  &lt;test name=&quot;Brochure_Request_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Brochure_Request_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Brochure_Request_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Brochure_Request_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Brochure_Request_SEO --&gt;
+  &lt;test name=&quot;Customer_Support_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Customer_Support_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Customer_Support_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Customer_Support_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Customer_Support_SEO --&gt;
+  &lt;test name=&quot;Contact_Us_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Contact_Us_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Contact_Us_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Contact_Us_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contact_Us_SEO --&gt;
+  &lt;test name=&quot;Promotions_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Promotions_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Promotions_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Promotions_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Promotions_SEO --&gt;
+  &lt;test name=&quot;Locations_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Locations_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Locations_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Locations_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Locations_SEO --&gt;
+  &lt;test name=&quot;Facilities_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Facilities_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Facilities_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Facilities_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Facilities_SEO --&gt;
+  &lt;test name=&quot;Global_SEO_Settings&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Global_SEO_Settings&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Global_SEO_Settings_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Global_SEO_Settings --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Global_SEO_Settings --&gt;
+  &lt;test name=&quot;Cart_SEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.Cart_SEO&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Cart_SEO_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.Cart_SEO --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart_SEO --&gt;
+  &lt;test name=&quot;VHV_Library_SEO_Upload&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seo.VHV_Library_SEO_Upload&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VHV_Library_SEO_Upload_test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- seo.VHV_Library_SEO_Upload --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VHV_Library_SEO_Upload --&gt;
+&lt;/suite&gt; &lt;!-- Merchant site --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Merchant site</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Initionalization_driver (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login_verification_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HomePage Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Franchise_Interest_Submissions (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Franchise_Interest_Managers (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Vision_History (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Franchise File (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Experience Ratings (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Brochure_File (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Franchise Interest Form - Areas Of Interest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> Animated banners  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Homepage_rotators (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Careers_Submissions (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Careers (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">News_articles (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Homepage_articles (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Guest_Promotion_Text (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FranchiseInterestItems (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Franchise Question Manager (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Email Blasts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">shipping_service (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">shopping_models (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Intranet_Shipping_Cost (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">URL_forwarding (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Store_settings (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Tax_settings (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Vision_and_History_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VHV_Library_SEO_Download (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Book_Reservation_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">News_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Waxing_Services_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Brochure_Request_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Customer_Support_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contact_Us_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Promotions_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Locations_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Facilities_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Global_SEO_Settings (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart_SEO (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VHV_Library_SEO_Upload (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Merchant site</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Merchant site</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Merchant_site');
+function tableData_Merchant_site() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shopping_models_test')
+data.setCell(0, 2, 'settings.shopping_models')
+data.setCell(0, 3, 12461);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Tax_settings_test')
+data.setCell(1, 2, 'settings.Tax_settings')
+data.setCell(1, 3, 7958);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Locations_SEO_test')
+data.setCell(2, 2, 'seo.Locations_SEO')
+data.setCell(2, 3, 7679);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Store_settings_test')
+data.setCell(3, 2, 'settings.Store_settings')
+data.setCell(3, 3, 5756);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Facilities_SEO_test')
+data.setCell(4, 2, 'seo.Facilities_SEO')
+data.setCell(4, 3, 5733);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Franchise_Interest_FormAreasOfInterest_test')
+data.setCell(5, 2, 'content.Franchise_Interest_FormAreasOfInterest')
+data.setCell(5, 3, 5461);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Testimonials_test')
+data.setCell(6, 2, 'content.Testimonials')
+data.setCell(6, 3, 5344);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginWithValidUser')
+data.setCell(7, 2, 'Loginpage_verification.LoginTest')
+data.setCell(7, 3, 5291);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Cart_SEO_test')
+data.setCell(8, 2, 'seo.Cart_SEO')
+data.setCell(8, 3, 5247);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shipping_service_test')
+data.setCell(9, 2, 'settings.shipping_service')
+data.setCell(9, 3, 4985);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Vision_and_History_SEO_test')
+data.setCell(10, 2, 'seo.Vision_and_History_SEO')
+data.setCell(10, 3, 4842);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Contact_Us_SEO_test')
+data.setCell(11, 2, 'seo.Contact_Us_SEO')
+data.setCell(11, 3, 4721);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Waxing_Services_SEO_test')
+data.setCell(12, 2, 'seo.Waxing_Services_SEO')
+data.setCell(12, 3, 4705);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VHV_Library_SEO_Upload_test')
+data.setCell(13, 2, 'seo.VHV_Library_SEO_Upload')
+data.setCell(13, 3, 4703);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'News_SEO_test')
+data.setCell(14, 2, 'seo.News_SEO')
+data.setCell(14, 3, 4698);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Brochure_Request_SEO_test')
+data.setCell(15, 2, 'seo.Brochure_Request_SEO')
+data.setCell(15, 3, 4647);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginWithInValidUser')
+data.setCell(16, 2, 'Loginpage_verification.LoginTest')
+data.setCell(16, 3, 4603);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Intranet_Shipping_Cost_test')
+data.setCell(17, 2, 'settings.Intranet_Shipping_Cost')
+data.setCell(17, 3, 4590);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Global_SEO_Settings_test')
+data.setCell(18, 2, 'seo.Global_SEO_Settings')
+data.setCell(18, 3, 4449);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Animated_banners_test')
+data.setCell(19, 2, 'content.Animated_banners')
+data.setCell(19, 3, 4358);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Brochure_File_test')
+data.setCell(20, 2, 'content.Brochure_File')
+data.setCell(20, 3, 4339);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Guest_Promotion_Text_test')
+data.setCell(21, 2, 'content.Guest_Promotion_Text')
+data.setCell(21, 3, 4333);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Promotions_SEO_test')
+data.setCell(22, 2, 'seo.Promotions_SEO')
+data.setCell(22, 3, 4165);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Careers_Submissions_test')
+data.setCell(23, 2, 'content.Careers_Submissions')
+data.setCell(23, 3, 4095);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Book_Reservation_SEO_test')
+data.setCell(24, 2, 'seo.Book_Reservation_SEO')
+data.setCell(24, 3, 4094);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'URL_forwarding_test')
+data.setCell(25, 2, 'settings.URL_forwarding')
+data.setCell(25, 3, 3886);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Customer_Support_SEO_test')
+data.setCell(26, 2, 'seo.Customer_Support_SEO')
+data.setCell(26, 3, 3880);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Careers_test')
+data.setCell(27, 2, 'content.Careers')
+data.setCell(27, 3, 3857);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'vision')
+data.setCell(28, 2, 'content.Vision_History')
+data.setCell(28, 3, 3846);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Franchise_Question_Manager_test')
+data.setCell(29, 2, 'content.Franchise_Question_Manager')
+data.setCell(29, 3, 3700);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Homepage_articles_test')
+data.setCell(30, 2, 'content.Homepage_articles')
+data.setCell(30, 3, 3679);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Email_Blasts_test')
+data.setCell(31, 2, 'content.Email_Blasts')
+data.setCell(31, 3, 3650);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'News_articles_test')
+data.setCell(32, 2, 'content.News_articles')
+data.setCell(32, 3, 3505);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Franchise_Question_Manager_test')
+data.setCell(33, 2, 'content.Franchise_Question_Manager')
+data.setCell(33, 3, 3434);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Homepage_rotators_test')
+data.setCell(34, 2, 'content.Homepage_rotators')
+data.setCell(34, 3, 3431);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'FranchiseInterestItems_test')
+data.setCell(35, 2, 'content.FranchiseInterestItems')
+data.setCell(35, 3, 3070);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Franchise')
+data.setCell(36, 2, 'content.Franchise_Interest_Submissions')
+data.setCell(36, 3, 2388);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Franchise_file')
+data.setCell(37, 2, 'content.Franchise_File')
+data.setCell(37, 3, 2149);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'HomeTesting')
+data.setCell(38, 2, 'HomePageTesting.HomeTest')
+data.setCell(38, 3, 85);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Vision_and_History_SEO_test')
+data.setCell(39, 2, 'seo.VHV_Library_SEO_Download')
+data.setCell(39, 3, 2);
+window.suiteTableData['Merchant_site']= { tableData: data, tableDiv: 'times-div-Merchant_site'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Merchant_site">
+              </div> <!-- times-div-Merchant_site -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Merchant site</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithInValidUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invalid functionality working correctly</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithValidUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid functionality working correctly</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HomeTesting</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Correct Page Open this Homepage Test Case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Franchise</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Franchise Interest Submissions= OOP something went wrong...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Franchise_Question_Manager_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Franchise Question Manager= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">vision</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Vision & History= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Franchise_file</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Franchise File = OOP something went wrong...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Testimonials_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testimonials= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Brochure_File_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Brochure File= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Franchise_Interest_FormAreasOfInterest_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Franchise Interest Form - Areas Of Interest= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Animated_banners_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Animated banners= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Homepage_rotators_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Homepage_rotators= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Careers_Submissions_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Careers Submissions = land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Careers_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Careers= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">News_articles_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">News articles= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Homepage_articles_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Homepage Articles= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Guest_Promotion_Text_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Guest Promotion Text = land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FranchiseInterestItems_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">FranchiseInterestItems = land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Franchise_Question_Manager_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Franchise Question Manager= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Email_Blasts_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Email Blasts= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">shipping_service_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Shipping Services= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">shopping_models_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">UPS Shipping Methods= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">URL_forwarding_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">URL Forwards= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Store_settings_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit store settings= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Tax_settings_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Tax settings= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Vision_and_History_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Vision and History SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Book_Reservation_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Book reservation SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">News_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit News SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Waxing_Services_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Waxing Services SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Brochure_Request_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Brochure Request SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Customer_Support_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Customer Support SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Contact_Us_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Contact Us SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Promotions_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Promotions SEO= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Global_SEO_Settings_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit homepage SEO settings= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Cart_SEO_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit Cart SEO = OOP something went wrong...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VHV_Library_SEO_Upload_test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">VHV Libary SEO Upload= land on correct page..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Merchant_site" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">DriverSetup.driversetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">getBrowser(firefox, http://merchant.waxcenter.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Loginpage_verification.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInValidUser</span>
+                <span class="method-start">156204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUser</span>
+                <span class="method-start">160807 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTesting.HomeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomeTesting</span>
+                <span class="method-start">166516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Franchise_Interest_Submissions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Franchise</span>
+                <span class="method-start">166615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Franchise_Question_Manager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Franchise_Question_Manager_test</span>
+                <span class="method-start">169089 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Vision_History</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">vision</span>
+                <span class="method-start">172539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Franchise_File</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Franchise_file</span>
+                <span class="method-start">176465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Testimonials</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Testimonials_test</span>
+                <span class="method-start">178658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Brochure_File</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Brochure_File_test</span>
+                <span class="method-start">184097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Franchise_Interest_FormAreasOfInterest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Franchise_Interest_FormAreasOfInterest_test</span>
+                <span class="method-start">188565 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Animated_banners</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Animated_banners_test</span>
+                <span class="method-start">194127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Homepage_rotators</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Homepage_rotators_test</span>
+                <span class="method-start">198572 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Careers_Submissions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Careers_Submissions_test</span>
+                <span class="method-start">202068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Careers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Careers_test</span>
+                <span class="method-start">206212 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.News_articles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">News_articles_test</span>
+                <span class="method-start">210086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Homepage_articles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Homepage_articles_test</span>
+                <span class="method-start">214050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Guest_Promotion_Text</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Guest_Promotion_Text_test</span>
+                <span class="method-start">217751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.FranchiseInterestItems</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FranchiseInterestItems_test</span>
+                <span class="method-start">222100 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Franchise_Question_Manager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Franchise_Question_Manager_test</span>
+                <span class="method-start">225182 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">content.Email_Blasts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Email_Blasts_test</span>
+                <span class="method-start">228897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.shipping_service</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shipping_service_test</span>
+                <span class="method-start">232614 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.shopping_models</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shopping_models_test</span>
+                <span class="method-start">238368 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.Intranet_Shipping_Cost</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Intranet_Shipping_Cost_test</span>
+                <span class="method-start">250862 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.URL_forwarding</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">URL_forwarding_test</span>
+                <span class="method-start">255785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.Store_settings</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Store_settings_test</span>
+                <span class="method-start">260326 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">settings.Tax_settings</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Tax_settings_test</span>
+                <span class="method-start">266097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Vision_and_History_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Vision_and_History_SEO_test</span>
+                <span class="method-start">274070 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.VHV_Library_SEO_Download</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Vision_and_History_SEO_test</span>
+                <span class="method-start">278923 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Book_Reservation_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Book_Reservation_SEO_test</span>
+                <span class="method-start">279135 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.News_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">News_SEO_test</span>
+                <span class="method-start">283245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Waxing_Services_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Waxing_Services_SEO_test</span>
+                <span class="method-start">287996 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Brochure_Request_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Brochure_Request_SEO_test</span>
+                <span class="method-start">292934 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Customer_Support_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Customer_Support_SEO_test</span>
+                <span class="method-start">297597 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Contact_Us_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Contact_Us_SEO_test</span>
+                <span class="method-start">301489 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Promotions_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Promotions_SEO_test</span>
+                <span class="method-start">306228 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Locations_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Locations_SEO_test</span>
+                <span class="method-start">310406 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Facilities_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Facilities_SEO_test</span>
+                <span class="method-start">318104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Global_SEO_Settings</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Global_SEO_Settings_test</span>
+                <span class="method-start">323886 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.Cart_SEO</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Cart_SEO_test</span>
+                <span class="method-start">328357 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seo.VHV_Library_SEO_Upload</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VHV_Library_SEO_Upload_test</span>
+                <span class="method-start">333638 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DriverSetup.driversetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endTestSuite</span>
+                <span class="method-start">338361 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

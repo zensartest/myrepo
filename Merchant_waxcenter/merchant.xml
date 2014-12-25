@@ -1,0 +1,461 @@
+<suite name="Merchant site" verbose="1" >
+  <parameter name="Browsername" value="firefox"/>
+   <parameter name="TestURL" value="http://merchant.waxcenter.com"/>
+       				  <test name="Initionalization_driver" >
+     				  <classes>
+						<class name="DriverSetup.driversetup"/>
+     				  </classes>
+						<methods>
+       		         	 <include name ="getBrowser"/>
+						</methods>
+                      </test>  
+              	<!--This is for login page checking  --> 
+              	       
+       				  <test name="Login_verification_Test" >
+     				  <classes>
+						<class name="Loginpage_verification.LoginTest"/>
+     				  	</classes>
+						 <methods>
+       		         	 <include name ="loginWithInValidUser"/>
+       		         	 <include name ="loginWithValidUser"/> 
+						</methods> 
+                      </test>   
+                      
+       				  <!--This is for Home Page Testing -->
+                      
+       				   <test name="HomePage Validation" >
+     				  <classes>
+						<class name="HomePageTesting.HomeTest"/>
+     				  </classes>
+						<methods>
+       		         	 <include name ="HomeTesting"/>
+						</methods>
+                      </test>  
+   	    		
+                <!-- content:-Franchise_Interest_Submissions -->
+                
+                 <test name="Franchise_Interest_Submissions" >
+     				  <classes>
+						<class name="content.Franchise_Interest_Submissions"/>
+     				  </classes>
+						<methods>
+       		         	 <include name ="Franchise"/>
+						</methods>
+                      </test>    
+                      
+                <!-- content:-Franchise_Interest_Manager -->
+                
+                  <test name="Franchise_Interest_Managers" >
+     				  <classes>
+						<class name="content.Franchise_Question_Manager"/>
+     				  </classes>
+						<methods>
+       		         	 <include name ="Fran_ques_manager"/>
+						</methods>
+                      </test>   
+                      
+                  <!-- Content:-Vision_History -->
+                  
+           <test name="Vision_History" >
+     				  <classes>
+						<class name="content.Vision_History"/>
+     				  </classes>
+						<methods>
+       		         	 <include name ="vision"/>
+						</methods>
+                      </test>   
+                      
+            Content:-Franchise File
+            
+            <test name="Franchise File" >
+     				  <classes>
+						<class name="content.Franchise_File"/>
+     				  </classes>
+					  <methods>
+       		          <include name ="Franchise_file"/>
+					  </methods>
+          
+		  </test> 
+                                  
+                       Content:-Experience Ratings
+                       
+                        <test name="Experience Ratings" >
+     				  	<classes>
+							<class name="content.Testimonials"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Testimonials_test"/>
+						</methods>
+            
+						</test> 
+						  Content:-Brochure_File
+                       
+                        <test name="Brochure_File" >
+     				  	<classes>
+							<class name="content.Brochure_File"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Brochure_File_test"/>
+						</methods>
+            
+						</test> 
+          
+        		<!-- Franchise Interest Form - Areas Of Interest -->
+        
+                        <test name="Franchise Interest Form - Areas Of Interest" >
+                            
+     				  	<classes>
+							<class name="content.Franchise_Interest_FormAreasOfInterest"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Franchise_Interest_FormAreasOfInterest_test"/>
+						</methods>
+            
+						</test> 
+						 Animated banners
+        
+                        <test name=" Animated banners " >
+                            
+     				  	<classes>
+							<class name="content.Animated_banners"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Animated_banners"/>
+						</methods>
+            
+						</test> 
+						 Homepage_rotators
+        
+                        <test name="Homepage_rotators" >
+                            
+     				  	<classes>
+							<class name="content.Homepage_rotators"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Homepage_rotators_test"/>
+						</methods>
+            
+						</test> 
+						
+						Careers_Submissions
+						 <test name="Careers_Submissions" >
+                            
+     				  	<classes>
+							<class name="content.Careers_Submissions"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Careers_Submissions_test"/>
+						</methods>
+            
+						</test> 
+						Careers
+						
+						 <test name="Careers" >
+                            
+     				  	<classes>
+							<class name="content.Careers"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Careers_test"/>
+						</methods>
+            
+						</test>  
+						 <!-- PO Instructions -->
+						
+						<!-- <test name="PO Instructions" >
+                            
+     				  	<classes>
+							<class name="content.PO_Instructions"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="PO_Instructions_test"/>
+						</methods>
+            
+						</test>   -->
+						
+						<test name="News_articles" >
+                            
+     				  	<classes>
+							<class name="content.News_articles"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="News_articles_test"/>
+						</methods>
+            
+						</test>  
+						<!--Homepage_articles  -->
+						
+						<test name="Homepage_articles" >
+						<classes>
+							<class name="content.Homepage_articles"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Homepage_articles_test"/>
+						</methods>
+            
+						</test>  
+						
+						<!-- Guest_Promotion_Text -->
+						<test name="Guest_Promotion_Text" >
+						<classes>
+							<class name="content.Guest_Promotion_Text"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Guest_Promotion_Text_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!-- Guest_Promotion_Text -->
+						
+						<test name="FranchiseInterestItems" >
+						<classes>
+							<class name="content.FranchiseInterestItems"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="FranchiseInterestItems_test"/>
+						</methods>
+            
+						</test> 
+						<!-- Franchise Question Manager -->
+						<test name="Franchise Question Manager" >
+						<classes>
+							<class name="content.Franchise_Question_Manager"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Franchise_Question_Manager_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!--Email Blasts  -->
+						<test name="Email Blasts" >
+						<classes>
+							<class name="content.Email_Blasts"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Email_Blasts_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!-- Setting Pakage Verification -->
+						
+						<!--shipping_service  -->
+						
+						<test name="shipping_service" >
+						<classes>
+							<class name="settings.shipping_service"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="shipping_service_test"/>
+						</methods>
+            
+						</test> 
+						<!-- shopping_models -->
+						<test name="shopping_models" >
+						<classes>
+							<class name="settings.shopping_models"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="shopping_models_test"/>
+						</methods>
+            
+						</test> 
+						<!-- Intranet_Shipping_Cost -->
+						
+						<test name="Intranet_Shipping_Cost" >
+						<classes>
+							<class name="settings.Intranet_Shipping_Cost"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Intranet_Shipping_Cost_test"/>
+						</methods>
+            
+						</test> 
+						<!-- URL_forwarding -->
+						<test name="URL_forwarding" >
+						<classes>
+							<class name="settings.URL_forwarding"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="URL_forwarding_test"/>
+						</methods>
+            
+						</test> 
+						<!--Store_settings  -->
+						<test name="Store_settings" >
+						<classes>
+							<class name="settings.Store_settings"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Store_settings_test"/>
+						</methods>
+            
+						</test> 
+						<!-- Edit tax settings -->
+						
+						<test name="Tax_settings" >
+						<classes>
+							<class name="settings.Tax_settings"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Tax_settings_test"/>
+						</methods>
+            
+						</test> 
+							<!-- SEO -->
+						<!-- Vision and History SEO -->
+						<test name="Vision_and_History_SEO" >
+						<classes>
+							<class name="seo.Vision_and_History_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Vision_and_History_SEO_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!--VHV_Library_SEO_Download -->
+						<test name="VHV_Library_SEO_Download" >
+						<classes>
+							<class name="seo.VHV_Library_SEO_Download"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="VHV_Library_SEO_Download_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!-- Book_Reservation_SEO -->
+						
+						<test name="Book_Reservation_SEO" >
+						<classes>
+							<class name="seo.Book_Reservation_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Book_Reservation_SEO_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!-- News_SEO -->
+						
+						<test name="News_SEO" >
+						<classes>
+							<class name="seo.News_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="News_SEO_test"/>
+						</methods>
+            
+						</test> 
+						
+						<!--Waxing_Services_SEO  -->
+						<test name="Waxing_Services_SEO" >
+						<classes>
+							<class name="seo.Waxing_Services_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Waxing_Services_SEO_test"/>
+						</methods>
+            
+						</test> 
+						<!-- Brochure_Request_SEO -->
+						
+						<test name="Brochure_Request_SEO" >
+						<classes>
+							<class name="seo.Brochure_Request_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Brochure_Request_SEO_test"/>
+						</methods>
+            
+						</test> 
+						<!-- Customer_Support_SEO -->
+						
+						<test name="Customer_Support_SEO" >
+						<classes>
+							<class name="seo.Customer_Support_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Customer_Support_SEO_test"/>
+						</methods>
+						</test>
+						<!-- Contact_Us_SEO -->
+						<test name="Contact_Us_SEO" >
+						<classes>
+							<class name="seo.Contact_Us_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Contact_Us_SEO_test"/>
+						</methods>
+						</test>
+						
+						<!-- Promotions_SEO -->
+						<test name="Promotions_SEO" >
+						<classes>
+							<class name="seo.Promotions_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Promotions_SEO_test"/>
+						</methods>
+						</test>
+						<!--Locations_SEO  -->
+						<test name="Locations_SEO" >
+						<classes>
+							<class name="seo.Locations_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Locations_SEO_test"/>
+						</methods>
+						</test>
+						<!-- Facilities_SEO -->
+						<test name="Facilities_SEO" >
+						<classes>
+							<class name="seo.Facilities_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Facilities_SEO_test"/>
+						</methods>
+						</test>
+						<!-- Global_SEO_Settings -->
+						<test name="Global_SEO_Settings" >
+						<classes>
+							<class name="seo.Global_SEO_Settings"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Global_SEO_Settings_test"/>
+						</methods>
+						</test>
+						
+						<!--Cart_SEO  -->
+						
+						<test name="Cart_SEO" >
+						<classes>
+							<class name="seo.Cart_SEO"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="Cart_SEO_test"/>
+						</methods>
+						</test>
+						
+						<!--VHV_Library_SEO_Upload  -->
+						<test name="VHV_Library_SEO_Upload" >
+						<classes>
+							<class name="seo.VHV_Library_SEO_Upload"/>
+     				  	</classes>
+						<methods>
+       		        		<include name ="VHV_Library_SEO_Upload_test"/>
+						</methods>
+						</test>
+						
+						
+						
+						
+						
+						
+						
+						
+      
+</suite>

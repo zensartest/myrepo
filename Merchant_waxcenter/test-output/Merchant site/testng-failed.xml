@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Merchant site]">
+  <parameter name="Browsername" value="firefox"/>
+  <parameter name="TestURL" value="http://merchant.waxcenter.com"/>
+  <test name="Intranet_Shipping_Cost(failed)">
+    <classes>
+      <class name="DriverSetup.driversetup">
+        <methods>
+          <include name="endTestSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- DriverSetup.driversetup -->
+      <class name="settings.Intranet_Shipping_Cost">
+        <methods>
+          <include name="Intranet_Shipping_Cost_test"/>
+        </methods>
+      </class> <!-- settings.Intranet_Shipping_Cost -->
+    </classes>
+  </test> <!-- Intranet_Shipping_Cost(failed) -->
+  <test name="VHV_Library_SEO_Download(failed)">
+    <classes>
+      <class name="seo.VHV_Library_SEO_Download">
+        <methods>
+          <include name="Vision_and_History_SEO_test"/>
+        </methods>
+      </class> <!-- seo.VHV_Library_SEO_Download -->
+      <class name="DriverSetup.driversetup">
+        <methods>
+          <include name="endTestSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- DriverSetup.driversetup -->
+    </classes>
+  </test> <!-- VHV_Library_SEO_Download(failed) -->
+  <test name="Locations_SEO(failed)">
+    <classes>
+      <class name="DriverSetup.driversetup">
+        <methods>
+          <include name="endTestSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- DriverSetup.driversetup -->
+      <class name="seo.Locations_SEO">
+        <methods>
+          <include name="Locations_SEO_test"/>
+        </methods>
+      </class> <!-- seo.Locations_SEO -->
+    </classes>
+  </test> <!-- Locations_SEO(failed) -->
+  <test name="Facilities_SEO(failed)">
+    <classes>
+      <class name="seo.Facilities_SEO">
+        <methods>
+          <include name="Facilities_SEO_test"/>
+        </methods>
+      </class> <!-- seo.Facilities_SEO -->
+      <class name="DriverSetup.driversetup">
+        <methods>
+          <include name="endTestSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- DriverSetup.driversetup -->
+    </classes>
+  </test> <!-- Facilities_SEO(failed) -->
+</suite> <!-- Failed suite [Merchant site] -->

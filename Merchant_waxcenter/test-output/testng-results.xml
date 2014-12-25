@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="40" passed="36">
+  <reporter-output>
+    <line>
+      <![CDATA[Invalid functionality working correctly]]>
+    </line>
+    <line>
+      <![CDATA[valid functionality working correctly]]>
+    </line>
+    <line>
+      <![CDATA[Correct Page Open this Homepage Test Case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Franchise Interest Submissions= OOP something went wrong...]]>
+    </line>
+    <line>
+      <![CDATA[Franchise Question Manager= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Vision & History= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Franchise File = OOP something went wrong...]]>
+    </line>
+    <line>
+      <![CDATA[Testimonials= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Brochure File= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Franchise Interest Form - Areas Of Interest= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Animated banners= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Homepage_rotators= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Careers Submissions = land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Careers= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[News articles= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Homepage Articles= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Guest Promotion Text = land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[FranchiseInterestItems = land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Franchise Question Manager= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Email Blasts= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Services= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[UPS Shipping Methods= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[URL Forwards= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit store settings= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Tax settings= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Vision and History SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Book reservation SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit News SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Waxing Services SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Brochure Request SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Customer Support SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Contact Us SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Promotions SEO= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit homepage SEO settings= land on correct page..]]>
+    </line>
+    <line>
+      <![CDATA[Edit Cart SEO = OOP something went wrong...]]>
+    </line>
+    <line>
+      <![CDATA[VHV Libary SEO Upload= land on correct page..]]>
+    </line>
+  </reporter-output>
+  <suite name="Merchant site" duration-ms="182626" started-at="2014-12-23T18:55:06Z" finished-at="2014-12-23T18:58:09Z">
+    <groups>
+    </groups>
+    <test name="Initionalization_driver" duration-ms="55" started-at="2014-12-23T18:55:06Z" finished-at="2014-12-23T18:55:07Z">
+    </test> <!-- Initionalization_driver -->
+    <test name="Login_verification_Test" duration-ms="9908" started-at="2014-12-23T18:55:07Z" finished-at="2014-12-23T18:55:17Z">
+      <class name="Loginpage_verification.LoginTest">
+        <test-method status="PASS" signature="loginWithInValidUser()[pri:0, instance:Loginpage_verification.LoginTest@1bd9247]" name="loginWithInValidUser" duration-ms="4603" started-at="2014-12-24T00:25:07Z" description="Checking the invalid input" finished-at="2014-12-24T00:25:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid functionality working correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUser -->
+        <test-method status="PASS" signature="loginWithValidUser()[pri:0, instance:Loginpage_verification.LoginTest@1bd9247]" name="loginWithValidUser" duration-ms="5291" started-at="2014-12-24T00:25:12Z" description="Checking the valid input" finished-at="2014-12-24T00:25:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[valid functionality working correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUser -->
+      </class> <!-- Loginpage_verification.LoginTest -->
+    </test> <!-- Login_verification_Test -->
+    <test name="HomePage Validation" duration-ms="86" started-at="2014-12-23T18:55:17Z" finished-at="2014-12-23T18:55:17Z">
+      <class name="HomePageTesting.HomeTest">
+        <test-method status="PASS" signature="HomeTesting()[pri:0, instance:HomePageTesting.HomeTest@134affc]" name="HomeTesting" duration-ms="85" started-at="2014-12-24T00:25:17Z" finished-at="2014-12-24T00:25:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Correct Page Open this Homepage Test Case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomeTesting -->
+      </class> <!-- HomePageTesting.HomeTest -->
+    </test> <!-- HomePage Validation -->
+    <test name="Franchise_Interest_Submissions" duration-ms="2388" started-at="2014-12-23T18:55:17Z" finished-at="2014-12-23T18:55:20Z">
+      <class name="content.Franchise_Interest_Submissions">
+        <test-method status="PASS" signature="Franchise()[pri:0, instance:content.Franchise_Interest_Submissions@171769e]" name="Franchise" duration-ms="2388" started-at="2014-12-24T00:25:17Z" finished-at="2014-12-24T00:25:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Franchise Interest Submissions= OOP something went wrong...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Franchise -->
+      </class> <!-- content.Franchise_Interest_Submissions -->
+    </test> <!-- Franchise_Interest_Submissions -->
+    <test name="Franchise_Interest_Managers" duration-ms="3435" started-at="2014-12-23T18:55:20Z" finished-at="2014-12-23T18:55:23Z">
+      <class name="content.Franchise_Question_Manager">
+        <test-method status="PASS" signature="Franchise_Question_Manager_test()[pri:0, instance:content.Franchise_Question_Manager@1251891]" name="Franchise_Question_Manager_test" duration-ms="3434" started-at="2014-12-24T00:25:20Z" finished-at="2014-12-24T00:25:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Franchise Question Manager= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Franchise_Question_Manager_test -->
+      </class> <!-- content.Franchise_Question_Manager -->
+    </test> <!-- Franchise_Interest_Managers -->
+    <test name="Vision_History" duration-ms="3847" started-at="2014-12-23T18:55:23Z" finished-at="2014-12-23T18:55:27Z">
+      <class name="content.Vision_History">
+        <test-method status="PASS" signature="vision()[pri:0, instance:content.Vision_History@c3fd8b]" name="vision" duration-ms="3846" started-at="2014-12-24T00:25:23Z" finished-at="2014-12-24T00:25:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Vision & History= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vision -->
+      </class> <!-- content.Vision_History -->
+    </test> <!-- Vision_History -->
+    <test name="Franchise File" duration-ms="2150" started-at="2014-12-23T18:55:27Z" finished-at="2014-12-23T18:55:29Z">
+      <class name="content.Franchise_File">
+        <test-method status="PASS" signature="Franchise_file()[pri:0, instance:content.Franchise_File@ce8af7]" name="Franchise_file" duration-ms="2149" started-at="2014-12-24T00:25:27Z" finished-at="2014-12-24T00:25:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Franchise File = OOP something went wrong...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Franchise_file -->
+      </class> <!-- content.Franchise_File -->
+    </test> <!-- Franchise File -->
+    <test name="Experience Ratings" duration-ms="5345" started-at="2014-12-23T18:55:29Z" finished-at="2014-12-23T18:55:35Z">
+      <class name="content.Testimonials">
+        <test-method status="PASS" signature="Testimonials_test()[pri:0, instance:content.Testimonials@11baa65]" name="Testimonials_test" duration-ms="5344" started-at="2014-12-24T00:25:29Z" finished-at="2014-12-24T00:25:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testimonials= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testimonials_test -->
+      </class> <!-- content.Testimonials -->
+    </test> <!-- Experience Ratings -->
+    <test name="Brochure_File" duration-ms="4340" started-at="2014-12-23T18:55:35Z" finished-at="2014-12-23T18:55:39Z">
+      <class name="content.Brochure_File">
+        <test-method status="PASS" signature="Brochure_File_test()[pri:0, instance:content.Brochure_File@ea639]" name="Brochure_File_test" duration-ms="4339" started-at="2014-12-24T00:25:35Z" finished-at="2014-12-24T00:25:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Brochure File= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Brochure_File_test -->
+      </class> <!-- content.Brochure_File -->
+    </test> <!-- Brochure_File -->
+    <test name="Franchise Interest Form - Areas Of Interest" duration-ms="5462" started-at="2014-12-23T18:55:39Z" finished-at="2014-12-23T18:55:45Z">
+      <class name="content.Franchise_Interest_FormAreasOfInterest">
+        <test-method status="PASS" signature="Franchise_Interest_FormAreasOfInterest_test()[pri:0, instance:content.Franchise_Interest_FormAreasOfInterest@16e8792]" name="Franchise_Interest_FormAreasOfInterest_test" duration-ms="5461" started-at="2014-12-24T00:25:39Z" finished-at="2014-12-24T00:25:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Franchise Interest Form - Areas Of Interest= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Franchise_Interest_FormAreasOfInterest_test -->
+      </class> <!-- content.Franchise_Interest_FormAreasOfInterest -->
+    </test> <!-- Franchise Interest Form - Areas Of Interest -->
+    <test name=" Animated banners " duration-ms="4359" started-at="2014-12-23T18:55:45Z" finished-at="2014-12-23T18:55:49Z">
+      <class name="content.Animated_banners">
+        <test-method status="PASS" signature="Animated_banners_test()[pri:0, instance:content.Animated_banners@11d970]" name="Animated_banners_test" duration-ms="4358" started-at="2014-12-24T00:25:45Z" finished-at="2014-12-24T00:25:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Animated banners= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Animated_banners_test -->
+      </class> <!-- content.Animated_banners -->
+    </test> <!--  Animated banners  -->
+    <test name="Homepage_rotators" duration-ms="3432" started-at="2014-12-23T18:55:49Z" finished-at="2014-12-23T18:55:53Z">
+      <class name="content.Homepage_rotators">
+        <test-method status="PASS" signature="Homepage_rotators_test()[pri:0, instance:content.Homepage_rotators@6776ad]" name="Homepage_rotators_test" duration-ms="3431" started-at="2014-12-24T00:25:49Z" finished-at="2014-12-24T00:25:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Homepage_rotators= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Homepage_rotators_test -->
+      </class> <!-- content.Homepage_rotators -->
+    </test> <!-- Homepage_rotators -->
+    <test name="Careers_Submissions" duration-ms="4096" started-at="2014-12-23T18:55:53Z" finished-at="2014-12-23T18:55:57Z">
+      <class name="content.Careers_Submissions">
+        <test-method status="PASS" signature="Careers_Submissions_test()[pri:0, instance:content.Careers_Submissions@aa5eb0]" name="Careers_Submissions_test" duration-ms="4095" started-at="2014-12-24T00:25:53Z" finished-at="2014-12-24T00:25:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Careers Submissions = land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Careers_Submissions_test -->
+      </class> <!-- content.Careers_Submissions -->
+    </test> <!-- Careers_Submissions -->
+    <test name="Careers" duration-ms="3858" started-at="2014-12-23T18:55:57Z" finished-at="2014-12-23T18:56:01Z">
+      <class name="content.Careers">
+        <test-method status="PASS" signature="Careers_test()[pri:0, instance:content.Careers@8bc3d5]" name="Careers_test" duration-ms="3857" started-at="2014-12-24T00:25:57Z" finished-at="2014-12-24T00:26:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Careers= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Careers_test -->
+      </class> <!-- content.Careers -->
+    </test> <!-- Careers -->
+    <test name="News_articles" duration-ms="3506" started-at="2014-12-23T18:56:01Z" finished-at="2014-12-23T18:56:04Z">
+      <class name="content.News_articles">
+        <test-method status="PASS" signature="News_articles_test()[pri:0, instance:content.News_articles@1f792cf]" name="News_articles_test" duration-ms="3505" started-at="2014-12-24T00:26:01Z" finished-at="2014-12-24T00:26:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[News articles= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- News_articles_test -->
+      </class> <!-- content.News_articles -->
+    </test> <!-- News_articles -->
+    <test name="Homepage_articles" duration-ms="3681" started-at="2014-12-23T18:56:05Z" finished-at="2014-12-23T18:56:08Z">
+      <class name="content.Homepage_articles">
+        <test-method status="PASS" signature="Homepage_articles_test()[pri:0, instance:content.Homepage_articles@181a1bc]" name="Homepage_articles_test" duration-ms="3679" started-at="2014-12-24T00:26:05Z" finished-at="2014-12-24T00:26:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Homepage Articles= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Homepage_articles_test -->
+      </class> <!-- content.Homepage_articles -->
+    </test> <!-- Homepage_articles -->
+    <test name="Guest_Promotion_Text" duration-ms="4334" started-at="2014-12-23T18:56:08Z" finished-at="2014-12-23T18:56:13Z">
+      <class name="content.Guest_Promotion_Text">
+        <test-method status="PASS" signature="Guest_Promotion_Text_test()[pri:0, instance:content.Guest_Promotion_Text@bc464]" name="Guest_Promotion_Text_test" duration-ms="4333" started-at="2014-12-24T00:26:08Z" finished-at="2014-12-24T00:26:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Guest Promotion Text = land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Guest_Promotion_Text_test -->
+      </class> <!-- content.Guest_Promotion_Text -->
+    </test> <!-- Guest_Promotion_Text -->
+    <test name="FranchiseInterestItems" duration-ms="3071" started-at="2014-12-23T18:56:13Z" finished-at="2014-12-23T18:56:16Z">
+      <class name="content.FranchiseInterestItems">
+        <test-method status="PASS" signature="FranchiseInterestItems_test()[pri:0, instance:content.FranchiseInterestItems@1624da6]" name="FranchiseInterestItems_test" duration-ms="3070" started-at="2014-12-24T00:26:13Z" finished-at="2014-12-24T00:26:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[FranchiseInterestItems = land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FranchiseInterestItems_test -->
+      </class> <!-- content.FranchiseInterestItems -->
+    </test> <!-- FranchiseInterestItems -->
+    <test name="Franchise Question Manager" duration-ms="3701" started-at="2014-12-23T18:56:16Z" finished-at="2014-12-23T18:56:20Z">
+      <class name="content.Franchise_Question_Manager">
+        <test-method status="PASS" signature="Franchise_Question_Manager_test()[pri:0, instance:content.Franchise_Question_Manager@14c5515]" name="Franchise_Question_Manager_test" duration-ms="3700" started-at="2014-12-24T00:26:16Z" finished-at="2014-12-24T00:26:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Franchise Question Manager= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Franchise_Question_Manager_test -->
+      </class> <!-- content.Franchise_Question_Manager -->
+    </test> <!-- Franchise Question Manager -->
+    <test name="Email Blasts" duration-ms="3651" started-at="2014-12-23T18:56:20Z" finished-at="2014-12-23T18:56:23Z">
+      <class name="content.Email_Blasts">
+        <test-method status="PASS" signature="Email_Blasts_test()[pri:0, instance:content.Email_Blasts@157f54e]" name="Email_Blasts_test" duration-ms="3650" started-at="2014-12-24T00:26:20Z" finished-at="2014-12-24T00:26:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email Blasts= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Email_Blasts_test -->
+      </class> <!-- content.Email_Blasts -->
+    </test> <!-- Email Blasts -->
+    <test name="shipping_service" duration-ms="4985" started-at="2014-12-23T18:56:23Z" finished-at="2014-12-23T18:56:28Z">
+      <class name="settings.shipping_service">
+        <test-method status="PASS" signature="shipping_service_test()[pri:0, instance:settings.shipping_service@109b8da]" name="shipping_service_test" duration-ms="4985" started-at="2014-12-24T00:26:23Z" finished-at="2014-12-24T00:26:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Shipping Services= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shipping_service_test -->
+      </class> <!-- settings.shipping_service -->
+    </test> <!-- shipping_service -->
+    <test name="shopping_models" duration-ms="12462" started-at="2014-12-23T18:56:29Z" finished-at="2014-12-23T18:56:42Z">
+      <class name="settings.shopping_models">
+        <test-method status="PASS" signature="shopping_models_test()[pri:0, instance:settings.shopping_models@6e2eef]" name="shopping_models_test" duration-ms="12461" started-at="2014-12-24T00:26:29Z" finished-at="2014-12-24T00:26:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UPS Shipping Methods= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopping_models_test -->
+      </class> <!-- settings.shopping_models -->
+    </test> <!-- shopping_models -->
+    <test name="Intranet_Shipping_Cost" duration-ms="4590" started-at="2014-12-23T18:56:42Z" finished-at="2014-12-23T18:56:46Z">
+      <class name="settings.Intranet_Shipping_Cost">
+        <test-method status="FAIL" signature="Intranet_Shipping_Cost_test()[pri:0, instance:settings.Intranet_Shipping_Cost@61f5df]" name="Intranet_Shipping_Cost_test" duration-ms="4590" started-at="2014-12-24T00:26:42Z" finished-at="2014-12-24T00:26:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Command duration or timeout: 1.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Command duration or timeout: 1.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at settings.Intranet_Shipping_Cost.Intranet_Shipping_Cost_test(Intranet_Shipping_Cost.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intranet_Shipping_Cost_test -->
+      </class> <!-- settings.Intranet_Shipping_Cost -->
+    </test> <!-- Intranet_Shipping_Cost -->
+    <test name="URL_forwarding" duration-ms="3887" started-at="2014-12-23T18:56:47Z" finished-at="2014-12-23T18:56:50Z">
+      <class name="settings.URL_forwarding">
+        <test-method status="PASS" signature="URL_forwarding_test()[pri:0, instance:settings.URL_forwarding@1f70c54]" name="URL_forwarding_test" duration-ms="3886" started-at="2014-12-24T00:26:47Z" finished-at="2014-12-24T00:26:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Forwards= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- URL_forwarding_test -->
+      </class> <!-- settings.URL_forwarding -->
+    </test> <!-- URL_forwarding -->
+    <test name="Store_settings" duration-ms="5757" started-at="2014-12-23T18:56:51Z" finished-at="2014-12-23T18:56:57Z">
+      <class name="settings.Store_settings">
+        <test-method status="PASS" signature="Store_settings_test()[pri:0, instance:settings.Store_settings@843fce]" name="Store_settings_test" duration-ms="5756" started-at="2014-12-24T00:26:51Z" finished-at="2014-12-24T00:26:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit store settings= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Store_settings_test -->
+      </class> <!-- settings.Store_settings -->
+    </test> <!-- Store_settings -->
+    <test name="Tax_settings" duration-ms="7959" started-at="2014-12-23T18:56:57Z" finished-at="2014-12-23T18:57:05Z">
+      <class name="settings.Tax_settings">
+        <test-method status="PASS" signature="Tax_settings_test()[pri:0, instance:settings.Tax_settings@1a57a3b]" name="Tax_settings_test" duration-ms="7958" started-at="2014-12-24T00:26:57Z" finished-at="2014-12-24T00:27:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tax settings= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tax_settings_test -->
+      </class> <!-- settings.Tax_settings -->
+    </test> <!-- Tax_settings -->
+    <test name="Vision_and_History_SEO" duration-ms="4842" started-at="2014-12-23T18:57:05Z" finished-at="2014-12-23T18:57:10Z">
+      <class name="seo.Vision_and_History_SEO">
+        <test-method status="PASS" signature="Vision_and_History_SEO_test()[pri:0, instance:seo.Vision_and_History_SEO@146e1f4]" name="Vision_and_History_SEO_test" duration-ms="4842" started-at="2014-12-24T00:27:05Z" finished-at="2014-12-24T00:27:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Vision and History SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Vision_and_History_SEO_test -->
+      </class> <!-- seo.Vision_and_History_SEO -->
+    </test> <!-- Vision_and_History_SEO -->
+    <test name="VHV_Library_SEO_Download" duration-ms="2" started-at="2014-12-23T18:57:10Z" finished-at="2014-12-23T18:57:10Z">
+      <class name="seo.VHV_Library_SEO_Download">
+        <test-method status="FAIL" signature="Vision_and_History_SEO_test()[pri:0, instance:seo.VHV_Library_SEO_Download@174b225]" name="Vision_and_History_SEO_test" duration-ms="2" started-at="2014-12-24T00:27:10Z" finished-at="2014-12-24T00:27:10Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "D:\cancel.exe": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "D:\cancel.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at seo.VHV_Library_SEO_Download.Vision_and_History_SEO_test(VHV_Library_SEO_Download.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vision_and_History_SEO_test -->
+      </class> <!-- seo.VHV_Library_SEO_Download -->
+    </test> <!-- VHV_Library_SEO_Download -->
+    <test name="Book_Reservation_SEO" duration-ms="4095" started-at="2014-12-23T18:57:10Z" finished-at="2014-12-23T18:57:14Z">
+      <class name="seo.Book_Reservation_SEO">
+        <test-method status="PASS" signature="Book_Reservation_SEO_test()[pri:0, instance:seo.Book_Reservation_SEO@121b0a2]" name="Book_Reservation_SEO_test" duration-ms="4094" started-at="2014-12-24T00:27:10Z" finished-at="2014-12-24T00:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Book reservation SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Book_Reservation_SEO_test -->
+      </class> <!-- seo.Book_Reservation_SEO -->
+    </test> <!-- Book_Reservation_SEO -->
+    <test name="News_SEO" duration-ms="4700" started-at="2014-12-23T18:57:14Z" finished-at="2014-12-23T18:57:19Z">
+      <class name="seo.News_SEO">
+        <test-method status="PASS" signature="News_SEO_test()[pri:0, instance:seo.News_SEO@e2abd]" name="News_SEO_test" duration-ms="4698" started-at="2014-12-24T00:27:14Z" finished-at="2014-12-24T00:27:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit News SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- News_SEO_test -->
+      </class> <!-- seo.News_SEO -->
+    </test> <!-- News_SEO -->
+    <test name="Waxing_Services_SEO" duration-ms="4705" started-at="2014-12-23T18:57:19Z" finished-at="2014-12-23T18:57:23Z">
+      <class name="seo.Waxing_Services_SEO">
+        <test-method status="PASS" signature="Waxing_Services_SEO_test()[pri:0, instance:seo.Waxing_Services_SEO@c7a4e4]" name="Waxing_Services_SEO_test" duration-ms="4705" started-at="2014-12-24T00:27:19Z" finished-at="2014-12-24T00:27:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Waxing Services SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Waxing_Services_SEO_test -->
+      </class> <!-- seo.Waxing_Services_SEO -->
+    </test> <!-- Waxing_Services_SEO -->
+    <test name="Brochure_Request_SEO" duration-ms="4649" started-at="2014-12-23T18:57:24Z" finished-at="2014-12-23T18:57:28Z">
+      <class name="seo.Brochure_Request_SEO">
+        <test-method status="PASS" signature="Brochure_Request_SEO_test()[pri:0, instance:seo.Brochure_Request_SEO@39f31e]" name="Brochure_Request_SEO_test" duration-ms="4647" started-at="2014-12-24T00:27:24Z" finished-at="2014-12-24T00:27:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Brochure Request SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Brochure_Request_SEO_test -->
+      </class> <!-- seo.Brochure_Request_SEO -->
+    </test> <!-- Brochure_Request_SEO -->
+    <test name="Customer_Support_SEO" duration-ms="3880" started-at="2014-12-23T18:57:28Z" finished-at="2014-12-23T18:57:32Z">
+      <class name="seo.Customer_Support_SEO">
+        <test-method status="PASS" signature="Customer_Support_SEO_test()[pri:0, instance:seo.Customer_Support_SEO@fc185]" name="Customer_Support_SEO_test" duration-ms="3880" started-at="2014-12-24T00:27:28Z" finished-at="2014-12-24T00:27:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Customer Support SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Customer_Support_SEO_test -->
+      </class> <!-- seo.Customer_Support_SEO -->
+    </test> <!-- Customer_Support_SEO -->
+    <test name="Contact_Us_SEO" duration-ms="4721" started-at="2014-12-23T18:57:32Z" finished-at="2014-12-23T18:57:37Z">
+      <class name="seo.Contact_Us_SEO">
+        <test-method status="PASS" signature="Contact_Us_SEO_test()[pri:0, instance:seo.Contact_Us_SEO@16a51ab]" name="Contact_Us_SEO_test" duration-ms="4721" started-at="2014-12-24T00:27:32Z" finished-at="2014-12-24T00:27:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Contact Us SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Contact_Us_SEO_test -->
+      </class> <!-- seo.Contact_Us_SEO -->
+    </test> <!-- Contact_Us_SEO -->
+    <test name="Promotions_SEO" duration-ms="4165" started-at="2014-12-23T18:57:37Z" finished-at="2014-12-23T18:57:41Z">
+      <class name="seo.Promotions_SEO">
+        <test-method status="PASS" signature="Promotions_SEO_test()[pri:0, instance:seo.Promotions_SEO@120ebad]" name="Promotions_SEO_test" duration-ms="4165" started-at="2014-12-24T00:27:37Z" finished-at="2014-12-24T00:27:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Promotions SEO= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Promotions_SEO_test -->
+      </class> <!-- seo.Promotions_SEO -->
+    </test> <!-- Promotions_SEO -->
+    <test name="Locations_SEO" duration-ms="7681" started-at="2014-12-23T18:57:41Z" finished-at="2014-12-23T18:57:49Z">
+      <class name="seo.Locations_SEO">
+        <test-method status="FAIL" signature="Locations_SEO_test()[pri:0, instance:seo.Locations_SEO@16905e]" name="Locations_SEO_test" duration-ms="7679" started-at="2014-12-24T00:27:41Z" finished-at="2014-12-24T00:27:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/table[15]/tbody/tr/td/div[3]/h1"}
+Command duration or timeout: 5.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/table[15]/tbody/tr/td/div[3]/h1"}
+Command duration or timeout: 5.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at seo.Locations_SEO.Locations_SEO_test(Locations_SEO.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"html/body/table[15]/tbody/tr/td/div[3]/h1"}
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Locations_SEO_test -->
+      </class> <!-- seo.Locations_SEO -->
+    </test> <!-- Locations_SEO -->
+    <test name="Facilities_SEO" duration-ms="5734" started-at="2014-12-23T18:57:49Z" finished-at="2014-12-23T18:57:55Z">
+      <class name="seo.Facilities_SEO">
+        <test-method status="FAIL" signature="Facilities_SEO_test()[pri:0, instance:seo.Facilities_SEO@1565ec2]" name="Facilities_SEO_test" duration-ms="5733" started-at="2014-12-24T00:27:49Z" finished-at="2014-12-24T00:27:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Command duration or timeout: 1.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Command duration or timeout: 1.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=24.4.0, platform=XP, browserConnectionEnabled=true, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cce64ff5-9148-45dd-bbfa-74ecee7e6efe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at seo.Facilities_SEO.Facilities_SEO_test(Facilities_SEO.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"html/body/h1"}
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'Sameer-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Windows/TEMP/anonymous616468519761021351webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facilities_SEO_test -->
+      </class> <!-- seo.Facilities_SEO -->
+    </test> <!-- Facilities_SEO -->
+    <test name="Global_SEO_Settings" duration-ms="4451" started-at="2014-12-23T18:57:55Z" finished-at="2014-12-23T18:57:59Z">
+      <class name="seo.Global_SEO_Settings">
+        <test-method status="PASS" signature="Global_SEO_Settings_test()[pri:0, instance:seo.Global_SEO_Settings@7fa833]" name="Global_SEO_Settings_test" duration-ms="4449" started-at="2014-12-24T00:27:55Z" finished-at="2014-12-24T00:27:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit homepage SEO settings= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Global_SEO_Settings_test -->
+      </class> <!-- seo.Global_SEO_Settings -->
+    </test> <!-- Global_SEO_Settings -->
+    <test name="Cart_SEO" duration-ms="5248" started-at="2014-12-23T18:57:59Z" finished-at="2014-12-23T18:58:04Z">
+      <class name="seo.Cart_SEO">
+        <test-method status="PASS" signature="Cart_SEO_test()[pri:0, instance:seo.Cart_SEO@c285f4]" name="Cart_SEO_test" duration-ms="5247" started-at="2014-12-24T00:27:59Z" finished-at="2014-12-24T00:28:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Cart SEO = OOP something went wrong...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cart_SEO_test -->
+      </class> <!-- seo.Cart_SEO -->
+    </test> <!-- Cart_SEO -->
+    <test name="VHV_Library_SEO_Upload" duration-ms="4704" started-at="2014-12-23T18:58:04Z" finished-at="2014-12-23T18:58:09Z">
+      <class name="DriverSetup.driversetup">
+        <test-method status="PASS" signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:DriverSetup.driversetup@d5c04e]" name="getBrowser" is-config="true" duration-ms="155714" started-at="2014-12-24T00:22:31Z" finished-at="2014-12-24T00:25:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://merchant.waxcenter.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="endTestSuite()[pri:0, instance:DriverSetup.driversetup@d5c04e]" name="endTestSuite" is-config="true" duration-ms="3705" started-at="2014-12-24T00:28:09Z" finished-at="2014-12-24T00:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestSuite -->
+      </class> <!-- DriverSetup.driversetup -->
+      <class name="seo.VHV_Library_SEO_Upload">
+        <test-method status="PASS" signature="VHV_Library_SEO_Upload_test()[pri:0, instance:seo.VHV_Library_SEO_Upload@15530b9]" name="VHV_Library_SEO_Upload_test" duration-ms="4703" started-at="2014-12-24T00:28:04Z" finished-at="2014-12-24T00:28:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VHV Libary SEO Upload= land on correct page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VHV_Library_SEO_Upload_test -->
+      </class> <!-- seo.VHV_Library_SEO_Upload -->
+    </test> <!-- VHV_Library_SEO_Upload -->
+  </suite> <!-- Merchant site -->
+</testng-results>
